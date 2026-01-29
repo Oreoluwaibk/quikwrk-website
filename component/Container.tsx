@@ -37,12 +37,12 @@ const Container: React.FC<props> = ({ children, active }) => {
                     </div>
                     <div className="bg-white flex items-center gap-4 md:gap-8">
                         <NavItem href="/" label="Home" active={active === 'Home'} /> 
-                        <NavItem href="/register" label="Register" active={active === 'Register'} /> 
-                        <NavItem href="/community" label="Community" active={active === 'Community'} /> 
+                        <NavItem href="#" label="Register" active={active === 'Register'} /> 
+                        <NavItem href="#" label="Community" active={active === 'Community'} /> 
                     </div>
                     
 
-                    {<div className='flex items-center gap-4 hidden md:block'>
+                    {<div className='items-center gap-4 hidden md:flex'>
                         <Button type='primary' className='h-15! w-63.25!'>Download Now</Button>
                     </div>}
 
