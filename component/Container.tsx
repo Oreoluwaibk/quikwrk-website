@@ -91,8 +91,8 @@ const Container: React.FC<props> = ({ children, active }) => {
             <div className='text-[#313030]! flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0 py-6! border-t border-t-[#E4E2E2] md:px-10!'>
                 <h1 className='text-lg'>&copy; 2026 Quikwrk LLC</h1>
                 <div className='flex items-center gap-2'>
-                    <Link href="#" className='text-lg text-[#313030]!'>Privacy Policy  /</Link>
-                    <Link href="#" className='text-lg text-[#313030]!'>Terms of Service</Link>
+                    <Link href="/privacy-policy" className='text-lg text-[#313030]!'>Privacy Policy  /</Link>
+                    <Link href="/terms-of-service" className='text-lg text-[#313030]!'>Terms of Service</Link>
                 </div>
             </div>
         </Footer>
